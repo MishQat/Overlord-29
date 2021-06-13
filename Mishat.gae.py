@@ -6,8 +6,8 @@ print("5. Power")
 
 Select = input("Please select any one of the above operators from 1 to 5: ")
 
-x = float(input("Enter your number: "))
-y = float(input("Enter your number again: "))
+x = float(input("Enter your number(base number for power): "))
+y = float(input("Enter your number again(power for the power operator): "))
 
 if Select == "1":
     Add = x + y
@@ -26,10 +26,6 @@ elif Select == "4":
     print("Answer is", Divide)
 
 elif Select == "5":
-    choose_1 = float(input("Enter your base number: "))
-    x = choose_1
-    choose_2 = float(input("Enter your power: "))
-    y = choose_2
     Power = x ** y
     print("Answer is", Power)
 
