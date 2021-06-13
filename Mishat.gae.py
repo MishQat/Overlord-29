@@ -26,6 +26,10 @@ elif Select == "4":
     print("Answer is", Divide)
 
 elif Select == "5":
+    choose_1 = float(input("Enter your base number: "))
+    x = choose_1
+    choose_2 = float(input("Enter your power: "))
+    y = choose_2
     Power = x ** y
     print("Answer is", Power)
 
